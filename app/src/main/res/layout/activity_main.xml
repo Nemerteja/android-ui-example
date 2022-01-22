@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/image_cloud"
+        android:layout_width="wrap_content"
+        android:layout_height="600dp"
+        android:layout_marginBottom="93dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/cloud"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/love_main_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:layout_marginTop="10dp"
+        android:text="All you need is love.."
+        android:textSize="48sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/group_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginRight="110dp"
+        android:layout_marginBottom="40dp"
+        android:alpha="1"
+        android:text="The Beatles"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+</RelativeLayout>
